@@ -1,0 +1,73 @@
+:root {
+    /* Nord theme colours copied from  https://www.nordtheme.com/docs/colors-and-palettes */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
+
+}
+
+:root {
+    --color-main-text: var(--nord6);
+    --color-main-background: var(--nord0);
+    --color-main-background-translucent: rgba(46, 52, 64, 0.97);
+    --gradient-main-background: var(--color-main-background) 0%, var(--color-main-background-translucent) 85%, transparent 100%;
+    --color-background-hover: var(--nord1);
+    --color-background-dark: var(--nord2);
+    --color-background-darker: var(--nord3);
+--color-placeholder-light: aqua;                /* TODO find usage */
+--color-placeholder-dark: aqua;                 /* TODO find usage */
+--color-primary: aqua;                          /* TODO find usage */
+--color-primary-hover: aqua;                    /* TODO find usage */
+    --color-primary-light: var(--nord2);
+    --color-primary-light-hover: var(--nord5);
+    --color-primary-text: var(--nord5);
+--color-primary-light-text: aqua;               /* TODO find usage */
+--color-primary-text-dark: aqua;                /* TODO find usage */
+    --color-primary-element: var(--nord2);
+--color-primary-element-hover: aqua;            /* TODO find usage */
+    --color-primary-element-light: var(--nord1);
+    --color-primary-element-lighter: var(--nord3);
+    --color-error: var(--nord11);
+    --color-error-hover: var(--nord11);
+    --color-warning: var(--nord12);
+    --color-warning-hover: var(--nord12);
+    --color-success: var(--nord14);
+    --color-success-hover: var(--nord14);
+    --color-text-maxcontrast: var(--nord4);
+    --color-text-light: var(--nord0);
+    --color-text-lighter: var(--nord3);
+    --image-logo: url('/core/img/logo/logo.png?v=6');
+    --image-login-background: url('/core/img/background.png?v=6');
+    --image-logoheader: url('/core/img/logo/logo.png?v=6');
+    --image-favicon: url('/core/img/logo/logo.png?v=6');
+    --color-loading-light: var(--nord4);
+    --color-loading-dark: var(--nord2);
+    --color-box-shadow: rgba(59, 66, 82, 0.5); /* --nord1 as rgb */
+    --color-border: var(--nord3);
+    --color-border-dark: var(--nord3);
+    --border-radius: 3px;
+    --border-radius-large: 10px;
+    --border-radius-pill: 100px;
+    --font-face: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Cantarell, Ubuntu, Helvetica Neue, Arial, sans-serif, Noto Color Emoji, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --default-font-size: 15px;
+    --default-line-height: 24px;
+    --animation-quick: 100ms;
+    --animation-slow: 300ms;
+    --header-height: 50px;
+}
