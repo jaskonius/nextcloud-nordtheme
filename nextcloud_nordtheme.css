@@ -23,6 +23,7 @@
 }
 
 :root {
+    /* Forgot to comment which variable is used where. Future me will hate me. */
     --color-main-text: var(--nord6);
     --color-main-background: var(--nord0);
     --color-main-background-translucent: rgba(46, 52, 64, 0.97);
@@ -32,9 +33,9 @@
     --color-background-darker: var(--nord3);
 --color-placeholder-light: aqua;                /* TODO find usage */
 --color-placeholder-dark: aqua;                 /* TODO find usage */
---color-primary: aqua;                          /* TODO find usage */
+    --color-primary: var(--nord3);
 --color-primary-hover: aqua;                    /* TODO find usage */
-    --color-primary-light: var(--nord2);
+    --color-primary-light: var(--nord3);
     --color-primary-light-hover: var(--nord5);
     --color-primary-text: var(--nord5);
 --color-primary-light-text: aqua;               /* TODO find usage */
@@ -50,7 +51,7 @@
     --color-success: var(--nord14);
     --color-success-hover: var(--nord14);
     --color-text-maxcontrast: var(--nord4);
-    --color-text-light: var(--nord0);
+    --color-text-light: var(--nord3);
     --color-text-lighter: var(--nord3);
     --image-logo: url('/core/img/logo/logo.png?v=6');
     --image-login-background: url('/core/img/background.png?v=6');
