@@ -39,7 +39,7 @@
     --color-primary-light-hover: var(--nord5);
     --color-primary-text: var(--nord5);
 --color-primary-light-text: aqua;               /* TODO find usage */
---color-primary-text-dark: aqua;                /* TODO find usage */
+--color-primary-text-dark: var(--color-main-text);
     --color-primary-element: var(--nord2);
 --color-primary-element-hover: aqua;            /* TODO find usage */
     --color-primary-element-light: var(--nord1);
@@ -71,4 +71,5 @@
     --animation-quick: 100ms;
     --animation-slow: 300ms;
     --header-height: 50px;
+    --color-background-translucent: rgba(67, 76, 94 0.97) !important; /* this _should_ change the 'customize' button on dashboard. But it doesn't. */
 }
